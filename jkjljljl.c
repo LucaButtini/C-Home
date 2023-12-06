@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
         exit(104);
     }
 
-    origine = fopen(argv[1], "r");
+    origine = fopen(argv[9], "r");
     if (origine == NULL)
     {
         printf("Errore apertura file origine\n");
